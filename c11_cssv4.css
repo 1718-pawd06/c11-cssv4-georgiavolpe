@@ -1,0 +1,63 @@
+/*
+* Georgia
+* 4/26/18
+* C08
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+	background-color:#cde4e4;
+	color: black;
+	font-family: "Times New Roman", Arial, sans-serif;
+}
+
+h1 {
+	text-align:center;
+	font-size:24pt;
+	text-decoration:overline underline;
+	background-color:goldenrod;
+	}
+
+h2, h4, h6 { 
+	background-color:rgb(60,150,30);
+	}
+
+h3, h5, {
+	background-color:#cde4e4;
+	}
+	
+p {background-color:#cde4e4;
+	color:black;
+	}
+a:link {
+	color: goldenrod;
+	}
+	
+a:visited {
+	color: #663300;
+	}
+	
+a:hover, a:focus {
+	background-color:#cde4e4;
+	color: slateblue;
+	}
+	
+a:active {
+	background-color:#cde4e4;
+	color: #DAA520;
+	} 
+img {
+	display:inline;
+}
+.center{
+	width:100%;
+	margin:auto;
+}
